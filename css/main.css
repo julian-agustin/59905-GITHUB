@@ -7,6 +7,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 /*estilos de header*/
 header{
@@ -23,6 +24,9 @@ header img{
     display: inline-block;
     margin-left: 50px;
     padding: 10px;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
 
 }  
 
@@ -32,7 +36,6 @@ header img{
     width: 300px ;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
     box-shadow: 0px 5px 5px 5px rgb(66, 1, 1);
@@ -51,24 +54,28 @@ main{
     
 }
 /*imagen del main*/
-/* main img{
+ main img{
     width: 30%;
     margin-top: 10px;
     margin-left: 150px;
-} */
+} 
 /*estilos del body*/
 body{
     background-color: rgb(3, 3, 48);
     
 }
+.menu{
+    background-color: blue;
+}
 h2{
     text-align: center;
+    margin: 0 auto
    
 }
 h3{
     text-align: center;
     color: yellowgreen;
-    margin-right: 10%;
+    
 }
 .subtitulo{
     color: antiquewhite;
@@ -78,40 +85,47 @@ h3{
 .footer{
     color: antiquewhite;
 }
-.horarios{
+.horarios nav ul li{
     text-align: center;
-    color: black;
+    color: white;
+    list-style: none;
+    margin: 0 auto;
+}
+.ubicaciones nav ul li{
+    list-style: none;
+    text-align: center;
     
-    
-
 }
 p{
     color: antiquewhite;
     width: 30%;
     text-align: center;
-    margin-left: 30%;
-    
-    
-    
+    margin: 0 auto
 }
 
 .mapa{
     margin-left: 30%;
 }
 .formulario{
-    font-size: larger;
-    background-color: aqua;
-    color: black;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+    max-width: 200px;
+    margin: 0 auto;
+    
+    
 }
 .contacto{
     background-color: aqua;
+    list-style: none;
 }
-.telefonos{
+.telefonos ul li{
     text-align: center;
     font-size: x-large;
     color: antiquewhite;
+    list-style: none;
 
 }
 
